@@ -1,0 +1,143 @@
+body {
+  background-image:url(./img/ixpa.jpg);
+  padding:0;
+  margin:0;
+  font-weight: bold;
+  overflow:hidden;
+  font-size:60px;
+  font-weight: bold;
+  color: white;  
+  overflow: hidden;
+  align: center;
+
+}
+
+
+
+
+#bigCanvas {  background-image:url(./img/ixpa.jpg);
+
+  position: absolute;
+  top: 0px; 
+  width: 100%;
+  
+  padding: 0px;
+font-family: 'Alegreya Sans SC', sans-serif;  
+  text-align:center;
+  z-index: 1000;
+  overflow: hidden;
+}
+ a {
+  color: #ffffff;
+}
+
+
+#shimBtm {  
+
+  position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-width: 2;
+    border-style: dotted;
+    border-color: #000; 
+  background-color:rgba(0, 0, 0, 1.00);
+  z-index: 1501;
+
+}
+#credits {  
+
+  position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding:5px;
+    border-style: solid;
+    border-color: #000000; 
+  background-color:rgba(0, 0, 0, 0.2500);
+  z-index: 1501;
+
+
+}
+#ident{
+  position:absolute;
+bottom:0;
+left:0;
+margin-left: -50%;
+}
+#mainButton {  
+
+    text-align:center;
+      position: absolute;
+    bottom: 0px;
+    right:  0px;
+background-image: url(../img/logo2_sm.png); 
+background-repeat: no-repeat;
+  z-index: 1501;
+  height:10%;
+  width:20%;
+
+
+}
+#mainBShim {  
+
+  position: absolute;
+    bottom: 10px;
+    left: 5%;
+  
+  background-color:rgba(0, 0, 0, 0.2500);
+  z-index: 1501;
+  height:175px;
+  width:66%;
+
+
+}
+#mainTShim {    background-image:url(./img/ixpa.jpg);
+
+
+  position: absolute;
+    top: 50px;
+  opacity: 0.50;
+
+background-repeat: no-repeat;
+background-origin: 0;
+  z-index: 1501;
+  overflow: hidden;
+  color: white;
+  text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+  
+
+}
+#mainTShimText {  
+
+  position: absolute;
+    top:5%;
+    bottom: 25%;
+    left: 15%;
+    right: 15%;
+ 
+  background-color:rgba(0, 0, 0, 0.6500);
+font-family: 'Alegreya Sans SC', sans-serif;  
+
+background-repeat: no-repeat;
+background-origin: 0;
+  z-index: 1501;
+  overflow: hidden;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  
+
+}
+
+a, a:visited, a:active, a:hover
+{
+   color: #fff;
+   text-decoration: underline;
+}
+
